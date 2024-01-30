@@ -1,4 +1,4 @@
-﻿namespace GeometryAndExchangeRates.Features.CurrencyRate;
+﻿namespace GeometryAndExchangeRates.Features.CurrencyRate.Core;
 
 public static class CurrencyRateInstaller
 {

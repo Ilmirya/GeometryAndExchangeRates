@@ -9,10 +9,13 @@
 
 namespace GeometryAndExchangeRates.Integration
 {
+    
+    
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
     [System.ServiceModel.ServiceContractAttribute(Namespace="http://web.cbr.ru/", ConfigurationName="GeometryAndExchangeRates.Integration.DailyInfoSoap")]
     public interface DailyInfoSoap
     {
+        
         [System.ServiceModel.OperationContractAttribute(Action="http://web.cbr.ru/EnumReutersValutes", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
         System.Threading.Tasks.Task<GeometryAndExchangeRates.Integration.ArrayOfXElement> EnumReutersValutesAsync();
@@ -922,7 +925,7 @@ namespace GeometryAndExchangeRates.Integration
     }
     
     [System.Xml.Serialization.XmlSchemaProviderAttribute(null, IsAny=true)]
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("dotnet-svcutil-lib", "2.1.0.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("JetBrains.SvcUtil", "777.0.0.0")]
     public partial class ArrayOfXElement : object, System.Xml.Serialization.IXmlSerializable
     {
         

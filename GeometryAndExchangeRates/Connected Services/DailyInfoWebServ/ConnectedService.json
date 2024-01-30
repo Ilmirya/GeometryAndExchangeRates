@@ -1,4 +1,6 @@
 {
+  "providerId": "Microsoft.Tools.ServiceModel.Svcutil",
+  "version": "2.1.0",
   "ExtendedData": {
     "inputs": [
       "https://www.cbr.ru/DailyInfoWebServ/DailyInfo.asmx"
@@ -10,6 +12,7 @@
     "namespaceMappings": [
       "*, GeometryAndExchangeRates.Integration"
     ],
+    "outputFile": "DailyInfoWebServ",
     "targetFramework": "net7.0",
     "typeReuseMode": "All"
   }

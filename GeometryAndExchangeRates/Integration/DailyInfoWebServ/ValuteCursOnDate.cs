@@ -1,6 +1,6 @@
 ﻿using System.Xml.Serialization;
 
-namespace GeometryAndExchangeRates.Features.CurrencyRate;
+namespace GeometryAndExchangeRates.Integration.DailyInfoWebServ;
 
 public class ValuteCursOnDate
 {
